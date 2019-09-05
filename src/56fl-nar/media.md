@@ -6,4 +6,4 @@ display_order: 2
 
 # Video
 
-{% video 'Antennas up @ 56FL/NAR summer activation' %}http://www.youtube.com/embed/ObgvVkV08dc{% endvideo %}
+{% video 'Antennas up @ 56FL/NAR summer activation' %}https://www.youtube.com/embed/ObgvVkV08dc{% endvideo %}
