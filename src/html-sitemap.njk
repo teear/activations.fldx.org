@@ -1,0 +1,22 @@
+---
+layout: main.njk
+permalink: /sitemap.html
+sitemapIgnore: true
+title: Sitemap
+---
+<h2>Sitemap</h2>
+
+<div class="sitemap-container">
+<ul class="sitemap">
+{%- for item in collections.all %}
+{%- if item.data.sitemapIgnore !== true %}
+<li>
+<a class="sitemap-link" href="{{ site.baseurl }}{{ item.url }}">
+<div class="sitemap-page-title">{% if item.data.callsign -%}{{ item.data.callsign }}:{%- endif %} {{ item.data.title }}</div>
+<div class="sitemap-page-loc">{{ site.baseurl }}{{ item.url }}</div>
+</a>
+</li>
+{%- endif %}
+{%- endfor %}
+</ul>
+</div>

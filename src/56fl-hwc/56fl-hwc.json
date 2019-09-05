@@ -1,0 +1,13 @@
+{
+	"tags": ["56fl-hwc"],
+	"bg": "/56fl-hwc/images/56fl_hwc-bg.jpg",
+	"layout": "activation.njk",
+	"callsign": "56FL/HWC",
+	"description": "Hockey World Championship 2011",
+	"image": "/56fl-hwc/images/FF-56FL_HWC-WEB.jpg",
+	"image_alt": "56FL/HWC QSL card with Finland flag, the hockey team and people celebrating",
+	"operators": ["56FL001", "56FL113"],
+	"start": "21/05/2011",
+	"end": "21/07/2011",
+	"activated": ["2011"]
+}

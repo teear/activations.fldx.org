@@ -1,0 +1,13 @@
+{
+	"tags": ["56fl-id"],
+	"bg": "/56fl-id/images/56fl_id-bg.jpg",
+	"layout": "activation.njk",
+	"callsign": "56FL/ID",
+	"description": "Finnish Independence Day SES",
+	"image": "/56fl-id/images/FF-56FL_ID-WEB.jpg",
+	"image_alt": "56FL/ID QSL card with Finland flag in the wind",
+	"operators": ["56FL001", "56FL113"],
+	"start": "06/12/2011",
+	"end": "Active sometimes on 6th of December",
+	"activated": ["06/12/2011", "06/12/2013", "06/12/2014"]
+}

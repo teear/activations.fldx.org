@@ -1,0 +1,10 @@
+---
+tags: ['media']
+title: Videos
+display_order: 3
+---
+# Videos
+
+{% video '56FL/ID 06/12/2011 1244 UTC Op. 56FL113 Panu' %}http://www.youtube.com/embed/zRNIDLr7Dhk{% endvideo %}
+
+{% video '56FL/ID 06/12/2014 1547 UTC Op. 56FL001 Timo (Video by 26CT1059 Tom)' %}http://www.youtube.com/embed/qbdG4hTPBDs{% endvideo %}

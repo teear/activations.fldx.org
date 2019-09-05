@@ -1,0 +1,71 @@
+---
+title: Foxtrot Lima Activations
+---
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--[if lte IE 8]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js "></script>
+<![endif]-->
+
+<script src="https://use.typekit.net/ctj2xxh.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+{% if site.env === "prod" %}
+<script>
+if ("serviceWorker" in navigator){
+navigator.serviceWorker.register("/service-worker.js");
+}
+</script>
+{% endif %}
+{% if meta_description %}
+<meta name="description" content="{{ meta_description }}">
+{% endif %}
+{% include 'icons.njk' %}
+
+{%- set css -%}
+{# include "css/index.css" #}
+{% include "css/styles.css" %}
+{%- endset %}
+<style>
+{{ css | cssmin | safe }}
+</style>
+{% if bg %}
+<style>body { background: url("{{bg}}") no-repeat fixed center center / cover #327ccb; }</style>
+{% endif %}
+<title>{{ title }} &ndash; {{ callsign }} | {{ site.name }}</title>
+
+<!-- open graph and twitter -->
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" property="og:title" content="{{ title }} &ndash; {{ callsign }} | {{ site.name }}">
+<meta name="twitter:image" property="og:image" content="{{ image or site.image }}">
+<meta name="twitter:image:alt" property="og:image:alt" content="{{image_alt or site.image_alt }}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta pame="twitter:description" property="og:description" content="{{ meta_description or description or site.description }}">
+<meta name="twitter:site" content="{{ site.twitter }}">
+</head>
+
+<body class="activation-site">
+{# Get pages from activation name in URL #}{% 
+set curActFromURL = page.inputPath.split('/')[2] %}{%
+ set pageslist = collections.all | includes("data.tags", curActFromURL ) %}{# Sort pages with the ordersort filter defined in .eleventy.js uses display_order in front matter to sort the list used in navigation #}{% 
+set pagessorted = pageslist | ordersort %}
+<header>
+<div class="header-title"><a href="/{{curActFromURL}}">{{ callsign }} {{ description }}</a></div>
+<nav>
+<ul>
+<li><a href="/"><small>&lt;</small> Back to Activations</a></li>{% for p in pagessorted %}
+<li><a href="{{ p.url  }}"{% if p.url === page.url %} aria-current="page"{% endif %}>{{ p.data.title }}</a></li>{% endfor %}
+</ul>
+</nav>
+</header>
+
+<main id="main" role="main">
+{{ content | safe }}</main>
+
+{% include 'footer.njk' %}
+</body>
+</html>

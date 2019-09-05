@@ -1,0 +1,11 @@
+{
+	"tags": ["56fl-nar"],
+	"bg": "/56fl-nar/images/56fl_nar-bg.jpg",
+	"layout": "activation.njk",
+	"callsign": "56FL/NAR",
+	"description": "Garden Town Närpes",
+	"operators": ["56FL114"],
+	"start": "13/05/2011",
+	"end": "Was active during summer 2011",
+	"activated": ["06/12/2011"]
+}

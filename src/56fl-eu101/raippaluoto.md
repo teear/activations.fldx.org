@@ -1,0 +1,53 @@
+---
+title: Info About Raippaluoto Island
+meta_description: Information about Raippaluoto island in the Kvarken Archipelago
+display_order: 2
+---
+# Info About Raippaluoto Island
+
+In the sea area outside the city of Vaasa (The Kvarken Archipelago) there are many islands and this area is the first UNESCO Natural Heritage site in Finland.
+
+Raippaluoto is the main island in the Kvarken  area which is the narrowest point of the Gulf of Bothnia.
+
+## Some facts about Raippaluoto
+
+<ul>
+<li>Raippaluoto together with Bj&ouml;rk&ouml;by has a total of over 2000 inhabitants.</li>
+<li>Raippaluoto is one of the largest islands in Finland, the size is about 150 square kilometres (58 sq mi).</li>
+<li>Raippaluoto bridge is Finland's longest bridge, it is 1 045 m long, it's down course height is 26 m and the width of the center hole is 250m.</li>
+<li>A large part of the Raippaluoto archipelago has been designated a UNESCO <a href="https://whc.unesco.org/en/list/898/" title="World Heritage List: High Coast / Kvarken Archipelago" target="_blank">World Heritage Site</a>.</li>
+</ul>
+
+## Raippaluoto on the Map
+
+<figure class="map">
+<img src="https://maps.googleapis.com/maps/api/staticmap?size=640x500&amp;zoom=7&amp;language=en&amp;markers=size:normal%7ccolor:blue%7Clabel:R%7cReplot,+Finland&amp;key=AIzaSyDhGoEDyrfCM_Msjx7P4Cw-T5jQ2ztN2h0" alt="Raippaluoto (Replot) on map">
+<figcaption>Raippaluoto island in the middle west coast of Finland, 21 division Sweden is on the left.</figcaption>
+</figure>
+
+<figure class="map">
+<img src="https://maps.googleapis.com/maps/api/staticmap?size=640x500&amp;zoom=9&amp;language=en&amp;markers=size:normal%7ccolor:blue%7Clabel:R%7cReplot,+Finland&amp;key=AIzaSyDhGoEDyrfCM_Msjx7P4Cw-T5jQ2ztN2h0" alt="Raippaluoto (Replot) on map">
+<figcaption>Another map with Raippaluoto and Björkö island</figcaption>
+</figure>
+
+Raippaluoto bridge connects Raippaluoto island to the mainland and is the longest bridge in Finland.
+
+<!--
+<figure class="photo">
+<a class="image-link" href="/56fl-eu101/images/Replotbron_large.jpg"><img src="/56fl-eu101/images/Replotbron_small.jpg" alt="Raippaluoto (Replot) Bridge - The longest bridge in Finland"></a>
+<figcaption>Raippaluoto Bridge (Image: Wikimedia Commons)</figcaption>
+</figure>
+-->
+
+<figure class="photo">
+<img src="/56fl-eu101/images/the-longest-bridge-in-finland.jpg" alt="Raippaluoto (Replot) bridge and the sea">
+<figcaption>Raippaluoto bridge (Image: <a href="https://www.flickr.com/photos/timokoo/438831359/">Timo</a>, <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC BY-NC-ND 2.0</a>)</figcaption>
+</figure>
+
+<h2>Links</h2>
+
+[The Kvarken Archipelago](http://www.kvarkenworldheritage.fi)
+
+[Korsholm Archipelago](http://www.korsholmsskargard.fi/index.php?sprak=eng)
+
+<img src="/56fl-eu101/images/kvarkenlogo_small.png" alt="Merenkurkku/Kvarken &ndash; World Heritage Site" width="315" height="245">

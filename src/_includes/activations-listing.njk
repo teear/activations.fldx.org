@@ -1,0 +1,15 @@
+<div class="activations-grid">
+{% for activation in collections.activations %}{#
+#}	<a href="{{ activation.url }}" class="card-link">
+	<article id="card-{{ activation.data.callsign.replace("/", "") | lower }}" class="card">
+	<h2>{{ activation.data.callsign }}</h2>
+	<ul>
+		<li class="card-activation-info">{{ activation.data.description }}</li>
+		<li class="card-activation-operators"><span>Operators:</span> {{ activation.data.operators | join(", ") }}</li>
+		<li class="card-activation-start"><span>Start:</span> {{ activation.data.start }}</li>
+		<li class="card-activation-end"><span>End:</span> {{ activation.data.end }}</li>
+	</ul>
+	</article>
+	</a>
+{% endfor %}{#
+#}</div>

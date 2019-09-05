@@ -1,0 +1,59 @@
+---
+title: Foxtrot Lima Activations
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--[if lte IE 8]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+
+<script src="https://use.typekit.net/ctj2xxh.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<script>
+if ("serviceWorker" in navigator)
+navigator.serviceWorker.register("/service-worker.js");
+</script>
+
+{% include 'icons.njk' %}
+
+{%- set css -%}
+{% include "css/styles.css" %}
+{% include "css/index.css" %}
+{%- endset %}
+<style>
+{{ css | cssmin | safe }}
+</style>
+{% if page.url === "/" %}{% set pageTitle = title %}{% else %}{% set pageTitle = title ~" | " ~site.name %}{% endif %}
+<title>{{ pageTitle }}</title>
+
+<!-- open graph and twitter -->
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" property="og:title" content="{{ pageTitle }}">
+<meta name="twitter:image" property="og:image" content="{{ image or site.image }}">
+<meta name="twitter:image:alt" property="og:image:alt" content="{{image_alt or site.image_alt }}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta pame="twitter:description" property="og:description" content="{{ meta_description or site.description }}">
+<meta name="twitter:site" content="{{ site.twitter }}">
+</head>
+
+<body class="activations">
+
+<header class="fl-activations">
+<h1>FL Activations</h1>
+<p>Past and future Foxtrot Lima activations</p>
+</header>
+
+<main>
+{{ content | safe }}
+</main>
+
+{% include 'footer-main.njk' %}
+
+</body>
+</html>
