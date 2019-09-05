@@ -23,3 +23,27 @@ EU-101 can also be found in Islands Base Online: <a href="http://islands.uznam.n
 </div>
 <figcaption>Raippaluoto island (<a href="//maps.google.fi/?t=h&amp;ll=63.239811,21.228333&amp;spn=0.593609,1.757813&amp;z=9" class="show-l">Show larger map</a>)</figcaption>
 </figure>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhGoEDyrfCM_Msjx7P4Cw-T5jQ2ztN2h0&sensor=false"></script>
+
+<script type="text/javascript">
+    // When the window has finished loading create our google map below
+    google.maps.event.addDomListener(window, 'load', init);
+
+    function init() {
+        // Basic options for a simple Google Map
+        // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+        var mapOptions = {
+            zoom: 10, //Initial zoom-level (required)
+            center: new google.maps.LatLng(63.239811, 21.228333), // Raippaluoto
+            //Styling (Snazzy Maps)
+            styles: [   {       featureType:'water',        stylers:[{color:'#46bcec'},{visibility:'on'}]   },{     featureType:'landscape',        stylers:[{color:'#f2f2f2'}] },{     featureType:'road',     stylers:[{saturation:-100},{lightness:45}]  },{     featureType:'road.highway',     stylers:[{visibility:'simplified'}] },{     featureType:'road.arterial',        elementType:'labels.icon',      stylers:[{visibility:'off'}]    },{     featureType:'administrative',       elementType:'labels.text.fill',     stylers:[{color:'#444444'}] },{     featureType:'transit',      stylers:[{visibility:'off'}]    },{     featureType:'poi',      stylers:[{visibility:'off'}]    }]
+        };
+
+        // Get the HTML DOM element that will contain your map
+        var mapElement = document.getElementById('gmap');
+
+        // Create the Google Map using out element and options defined above
+        var map = new google.maps.Map(mapElement, mapOptions);
+    }
+</script>
