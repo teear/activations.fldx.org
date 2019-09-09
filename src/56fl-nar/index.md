@@ -23,7 +23,7 @@ Antennas: Solarcon A99 vertical, 4 element horizontal Yagi
 Special Närpes-QSL. Normal contribution $1<br>
 QSL via 56FL114: Mr. Pete. P.O.Box 7, 65301 Vaasa, Finland
 
-<a href="http://www.narpes.fi/en">Click here for more info about the town of Närpes</a>
+[Click here for more info about the town of Närpes](https://visitnarpes.fi/en/about-n%C3%A4rpes)
 
 ## The QTH On Map
 
