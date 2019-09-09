@@ -12,7 +12,7 @@ Information about the EU-101 island group (located near the city of Vaasa in Fin
 
 EU-101 island group consists of several islands, [Raippaluoto](https://en.wikipedia.org/wiki/Replot) and [Björkö](https://en.wikipedia.org/wiki/Bj%C3%B6rk%C3%B6_%28Korsholm%29) being the largest ones.
 
-EU-101 can also be found in Islands Base Online: <a href="http://islands.uznam.net.pl/find_for.php?do=search&amp;io=EU-101">http://islands.uznam.net.pl/find_for.php?do=search&amp;io=EU-101</a>
+EU-101 can also be found in Islands Base Online: [http://islands.upway.pl/find_for.php?do=search&amp;io=EU-101](http://islands.upway.pl/find_for.php?do=search&amp;io=EU-101)
 (Note however that there is also lots of non-IOTA islands listed as part of EU-101.)
 
 ## Raippaluoto Island (Replot) on Map
