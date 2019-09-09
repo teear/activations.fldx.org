@@ -46,7 +46,7 @@ Raippaluoto bridge connects Raippaluoto island to the mainland and is the longes
 
 <h2>Links</h2>
 
-[The Kvarken Archipelago](http://www.kvarkenworldheritage.fi)
+[The Kvarken Archipelago](https://www.kvarkenworldheritage.fi)
 
 [Korsholm Archipelago](http://www.korsholmsskargard.fi/index.php?sprak=eng)
 

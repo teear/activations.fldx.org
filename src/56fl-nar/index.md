@@ -32,4 +32,4 @@ QSL via 56FL114: Mr. Pete. P.O.Box 7, 65301 Vaasa, Finland
 <figcaption>Närpes (Närpiö)</figcaption>
 </figure>
 
-<small>Background image: <a href="http://www.flickr.com/photos/wild-glance/4054979309" title="Närpes by WildGlance, on Flickr">Närpes</a> by <a href="http://www.flickr.com/photos/wild-glance/">WildGlance</a>, used under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA 2.0</a> / Applied a color fill and reduced opacity</small>
+<small>Background image: <a href="https://www.flickr.com/photos/wild-glance/4054979309" title="Närpes by WildGlance, on Flickr">Närpes</a> by <a href="https://www.flickr.com/photos/wild-glance/">WildGlance</a>, used under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA 2.0</a> / Applied a color fill and reduced opacity</small>
