@@ -15,7 +15,7 @@ Raippaluoto is the main island in the Kvarken  area which is the narrowest point
 <li>Raippaluoto together with Bj&ouml;rk&ouml;by has a total of over 2000 inhabitants.</li>
 <li>Raippaluoto is one of the largest islands in Finland, the size is about 150 square kilometres (58 sq mi).</li>
 <li>Raippaluoto bridge is Finland's longest bridge, it is 1 045 m long, it's down course height is 26 m and the width of the center hole is 250m.</li>
-<li>A large part of the Raippaluoto archipelago has been designated a UNESCO <a href="https://whc.unesco.org/en/list/898/" title="World Heritage List: High Coast / Kvarken Archipelago" target="_blank">World Heritage Site</a>.</li>
+<li>A large part of the Raippaluoto archipelago has been designated a UNESCO <a href="https://whc.unesco.org/en/list/898/" title="World Heritage List: High Coast / Kvarken Archipelago">World Heritage Site</a>.</li>
 </ul>
 
 ## Raippaluoto on the Map
