@@ -10,9 +10,9 @@
     "prefix": "postcss src/_includes/css -r --no-map",
     "build:sass": "node-sass src/_includes/sass -o src/_includes/css && npm run prefix",
     "build:images": "node minify-images.js",
-    "dev": "ELEVENTY_ENV='dev' npx eleventy --serve && npm run sass",
-    "prod": "npm run build:sass && npm run build:images && ELEVENTY_ENV='prod' npx eleventy --serve && npm run prefix",
-    "build": "npm run build:sass && npm run build:images && ELEVENTY_ENV='prod' npx eleventy && npm run prefix",
+    "dev": "ELEVENTY_ENV='dev' npx eleventy --serve & npm run sass",
+    "prod": "npm run build:sass && npm run prefix && npm run build:images && ELEVENTY_ENV='prod' npx eleventy --serve",
+    "build": "npm run build:sass && npm run prefix && npm run build:images && ELEVENTY_ENV='prod' npx eleventy",
     "clean": "rm -rf dist/"
   },
   "repository": {
