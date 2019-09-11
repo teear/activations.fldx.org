@@ -11,19 +11,14 @@ title: Foxtrot Lima Activations
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 <![endif]-->
 
-<script src="https://use.typekit.net/ctj2xxh.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-
-{% if site.env === "prod" %}
 <script>
-if ("serviceWorker" in navigator){
+document.documentElement.classList.add('fonts-inactive');
+{% if site.env === "prod" %}if ("serviceWorker" in navigator){
 navigator.serviceWorker.register("/service-worker.js");
 }
-</script>
-{% endif %}
+{% endif %}</script>
 {% if meta_description %}
-<meta name="description" content="{{ meta_description }}">
-{% endif %}
+<meta name="description" content="{{ meta_description }}">{% endif %}
 {% include 'icons.njk' %}
 
 {%- set css -%}
@@ -68,5 +63,6 @@ set pagessorted = pageslist | ordersort %}
 {{ content | safe }}</main>
 
 {% include 'footer.njk' %}
+{% include 'typekit.njk' %}
 </body>
 </html>

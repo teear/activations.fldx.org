@@ -19,6 +19,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/site.webmanifest": true });
   eleventyConfig.addPassthroughCopy({ "src/favicon.ico": true });
   eleventyConfig.addPassthroughCopy({ "src/files": true });
+  eleventyConfig.addPassthroughCopy({ "src/js": true });
   eleventyConfig.addPassthroughCopy({ "src/56fl-hwc/media": true });
 
   eleventyConfig.addPlugin(pluginPWA);

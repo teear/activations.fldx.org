@@ -255,26 +255,22 @@ main {
   font-size: 1.2em;
 }
 
-.wf-loading h1,
-.wf-inactive h1 {
+.fonts-inactive h1 {
   font-family: Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
 }
 @media all and (min-width: 43.75em) {
-  .wf-loading h1,
-  .wf-inactive h1 {
+  .fonts-inactive h1 {
     font-size: 2.5em;
   }
 }
 
-.wf-loading h2,
-.wf-inactive h2 {
+.fonts-inactive h2 {
   font-family: Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
 }
 @media all and (min-width: 43.75em) {
-  .wf-loading h2,
-  .wf-inactive h2 {
+  .fonts-inactive h2 {
     font-size: 2em;
   }
 }

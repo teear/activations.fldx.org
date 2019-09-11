@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="https://use.typekit.net/ctj2xxh.css">
+<script>
+(function () {
+var script = document.createElement('script');
+script.src = '/js/fontfaceobserver.js';
+script.async = true;
+script.onload = function () {
+var museoslab = new FontFaceObserver('museo-slab', {weight: 300});
+var futurapt = new FontFaceObserver('futura-pt', {weight: 700});
+Promise.all([museoslab.load(), futurapt.load()]).then(function () {
+document.documentElement.classList.remove('fonts-inactive');
+document.documentElement.classList.add('fonts-loaded');
+}, function () {
+document.documentElement.classList.add('fonts-inactive');
+});
+};
+document.head.appendChild(script);
+}());
+</script>
