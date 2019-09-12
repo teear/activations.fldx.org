@@ -6,7 +6,7 @@ display_order: 1
 
 # 56FL/EU101
 
-56FL/EU101 was last active from Björkö island in the <a href="http://islandfestival.net/">island festival</a> of 2014 on Saturday (07/06) and Sunday (08/06).
+56FL/EU101 was last active from Björkö island in the island festival of 2014 on Saturday (07/06) and Sunday (08/06).
 
 Information about the EU-101 island group (located near the city of Vaasa in Finland) on RSGB IOTA website: [EU-101 Island Group](https://www.iota-world.org/islands-on-the-air/iota-groups-islands/group/429.html)
 
