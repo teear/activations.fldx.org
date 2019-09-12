@@ -1,6 +1,6 @@
 <div class="activations-grid">
 {% for activation in collections.activations %}{#
-#}	<a href="{{ activation.url }}" class="card-link">
+#}	<a href="{{ activation.url }}" class="card-link" aria-label="{{ activation.data.callsign }}, {{ activation.data.description }}">
 	<article id="card-{{ activation.data.callsign.replace("/", "") | lower }}" class="card">
 	<h2>{{ activation.data.callsign }}</h2>
 	<ul>
