@@ -7,7 +7,7 @@ display_order: 2
 
 In the sea area outside the city of Vaasa (The Kvarken Archipelago) there are many islands and this area is the first UNESCO Natural Heritage site in Finland.
 
-Raippaluoto is the main island in the Kvarken  area which is the narrowest point of the Gulf of Bothnia.
+Raippaluoto is the main island in the Kvarken area which is the narrowest point of the Gulf of Bothnia.
 
 ## Some facts about Raippaluoto
 
@@ -44,7 +44,7 @@ Raippaluoto bridge connects Raippaluoto island to the mainland and is the longes
 <figcaption>Raippaluoto bridge (Image: <a href="https://www.flickr.com/photos/timokoo/438831359/">Timo</a>, <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC BY-NC-ND 2.0</a>)</figcaption>
 </figure>
 
-<h2>Links</h2>
+## Links
 
 [The Kvarken Archipelago](https://www.kvarkenworldheritage.fi)
 
