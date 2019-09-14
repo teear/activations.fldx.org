@@ -1,4 +1,5 @@
 const CleanCSS = require("clean-css");
+const uglifyjs = require("uglify-js");
 const pluginPWA = require("eleventy-plugin-pwa");
 
 module.exports = function(eleventyConfig) {
@@ -26,6 +27,14 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;
+  });
+  eleventyConfig.addFilter("jsmin", function(code) {
+    let minified = uglifyjs.minify(code);
+    if (minified.error) {
+      console.log("uglify-js error: ", minified.error);
+      return code;
+    }
+    return minified.code;
   });
   eleventyConfig.addFilter("ordersort", function(value) {
     return value.sort((a, b) => {
