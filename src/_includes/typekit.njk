@@ -1,4 +1,6 @@
-<link rel="stylesheet" href="https://use.typekit.net/ctj2xxh.css">
+<link rel="preload" href="https://use.typekit.net/ctj2xxh.css"" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://use.typekit.net/ctj2xxh.css"></noscript>
+
 <script>
 (function () {
 var script = document.createElement('script');
@@ -16,4 +18,10 @@ document.documentElement.classList.add('fonts-inactive');
 };
 document.head.appendChild(script);
 }());
+</script>
+{% set js %}
+{% include 'js/cssrelpreload.js' %}
+{% endset %}
+<script>
+{{ js | jsmin | safe }}
 </script>
