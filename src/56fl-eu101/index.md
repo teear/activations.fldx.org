@@ -21,7 +21,7 @@ EU-101 can also be found in Islands Base Online: [http://islands.upway.pl/find_f
 <div class="embed-container">
 <div id="gmap"></div>
 </div>
-<figcaption>Raippaluoto island ([Show larger map](https://www.google.com/maps/@63.2734445,21.2991379,9.62z))</figcaption>
+<figcaption>Raippaluoto island (<a href="https://www.google.com/maps/@63.2734445,21.2991379,9.62z">Show larger map</a>)</figcaption>
 </figure>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhGoEDyrfCM_Msjx7P4Cw-T5jQ2ztN2h0&sensor=false"></script>
