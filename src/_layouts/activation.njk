@@ -38,7 +38,7 @@ navigator.serviceWorker.register("/service-worker.js");
 <meta property="og:type" content="article">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" property="og:title" content="{{ title }} &ndash; {{ callsign }} | {{ site.name }}">
-<meta name="twitter:image" property="og:image" content="{{ image or site.image }}">
+<meta name="twitter:image" property="og:image" content="{{ site.baseurl }}{{ image or site.image }}">
 <meta name="twitter:image:alt" property="og:image:alt" content="{{image_alt or site.image_alt }}">
 <meta property="og:site_name" content="{{ site.name }}">
 <meta pame="twitter:description" property="og:description" content="{{ meta_description or description or site.description }}">
