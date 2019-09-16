@@ -1,6 +1,7 @@
 const CleanCSS = require("clean-css");
 const uglifyjs = require("uglify-js");
 const pluginPWA = require("eleventy-plugin-pwa");
+const dateTime = require("./src/_includes/dateTime.js");
 
 module.exports = function(eleventyConfig) {
   templateFormats: [
@@ -41,6 +42,9 @@ module.exports = function(eleventyConfig) {
       return a.data.display_order - b.data.display_order;
     });
   });
+  eleventyConfig.addFilter("date", function(dateString) {
+    return dateTime(dateString);
+  });
   eleventyConfig.addNunjucksFilter("dateDisplay", function(date) {
     return date.toISOString();
   });
@@ -50,6 +54,7 @@ module.exports = function(eleventyConfig) {
   const includesFilter = require("./src/_includes/includes.js");
 
   eleventyConfig.addFilter("includes", includesFilter);
+  eleventyConfig.addShortcode("date", dateTime);
 
   eleventyConfig.addPairedShortcode("video", function(url, caption) {
     // Method A: ✅ This works fine
