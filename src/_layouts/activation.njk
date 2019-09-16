@@ -8,6 +8,8 @@ title: Foxtrot Lima Activations
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 {% if meta_description %}<meta name="description" content="{{ meta_description }}">
 {% endif %}
+<title>{{ title }} &ndash; {{ callsign }} | {{ site.name }}</title>
+
 <!--[if lt IE 9]>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -22,27 +24,25 @@ navigator.serviceWorker.register("/service-worker.js");
 
 {% include 'icons.njk' %}
 
-{%- set css -%}
-{# include "css/index.css" #}
-{% include "css/styles.css" %}
-{%- endset %}
-<style>
-{{ css | cssmin | safe }}
-</style>
-{% if bg %}
-<style>body { background: url("{{bg}}") no-repeat fixed center center / cover #327ccb; }</style>
-{% endif %}
-<title>{{ title }} &ndash; {{ callsign }} | {{ site.name }}</title>
-
 <!-- open graph and twitter -->
 <meta property="og:type" content="article">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" property="og:title" content="{{ title }} &ndash; {{ callsign }} | {{ site.name }}">
 <meta name="twitter:image" property="og:image" content="{{ site.baseurl }}{{ image or site.image }}">
-<meta name="twitter:image:alt" property="og:image:alt" content="{{image_alt or site.image_alt }}">
+<meta name="twitter:image:alt" property="og:image:alt" content="{{ image_alt or site.image_alt }}">
 <meta property="og:site_name" content="{{ site.name }}">
 <meta pame="twitter:description" property="og:description" content="{{ meta_description or description or site.description }}">
 <meta name="twitter:site" content="{{ site.twitter }}">
+
+{% set css %}
+{% include "css/styles.css" %}
+{% endset %}
+<style>
+{{ css | cssmin | safe }}
+</style>
+{% if bg %}
+<style>body { background: url("{{ bg }}") no-repeat fixed center center / cover #327ccb; }</style>
+{% endif -%}
 </head>
 
 <body class="activation-site">
@@ -51,7 +51,7 @@ set curActFromURL = page.inputPath.split('/')[2] %}{%
  set pageslist = collections.all | includes("data.tags", curActFromURL ) %}{# Sort pages with the ordersort filter defined in .eleventy.js uses display_order in front matter to sort the list used in navigation #}{% 
 set pagessorted = pageslist | ordersort %}
 <header>
-<div class="header-title"><a href="/{{curActFromURL}}">{{ callsign }} {{ description }}</a></div>
+<div class="header-title"><a href="/{{ curActFromURL }}">{{ callsign }} {{ description }}</a></div>
 <nav>
 <ul>
 <li><a href="/"><small>&lt;</small> Back to Activations</a></li>{% for p in pagessorted %}

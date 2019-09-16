@@ -8,6 +8,9 @@ title: Foxtrot Lima Activations
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 {% if meta_description %}<meta name="description" content="{{ meta_description }}">
 {% endif %}
+{%- if page.url === "/" %}{% set pageTitle = title %}{% else %}{% set pageTitle = title ~" | " ~site.name %}{% endif %}
+<title>{{ pageTitle }}</title>
+
 <!--[if lt IE 9]>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -22,25 +25,23 @@ navigator.serviceWorker.register("/service-worker.js");
 
 {% include 'icons.njk' %}
 
-{%- set css -%}
-{% include "css/styles.css" %}
-{% include "css/index.css" %}
-{%- endset %}
-<style>
-{{ css | cssmin | safe }}
-</style>
-{% if page.url === "/" %}{% set pageTitle = title %}{% else %}{% set pageTitle = title ~" | " ~site.name %}{% endif %}
-<title>{{ pageTitle }}</title>
-
 <!-- open graph and twitter -->
 <meta property="og:type" content="article">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" property="og:title" content="{{ pageTitle }}">
 <meta name="twitter:image" property="og:image" content="{{ site.baseurl }}{{ image or site.image }}">
-<meta name="twitter:image:alt" property="og:image:alt" content="{{image_alt or site.image_alt }}">
+<meta name="twitter:image:alt" property="og:image:alt" content="{{ image_alt or site.image_alt }}">
 <meta property="og:site_name" content="{{ site.name }}">
 <meta pame="twitter:description" property="og:description" content="{{ meta_description or site.description }}">
 <meta name="twitter:site" content="{{ site.twitter }}">
+
+{% set css %}
+{% include "css/styles.css" %}
+{% include "css/index.css" %}
+{% endset %}
+<style>
+{{ css | cssmin | safe }}
+</style>
 </head>
 
 <body class="activations">

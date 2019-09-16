@@ -1,6 +1,7 @@
 const CleanCSS = require("clean-css");
 const uglifyjs = require("uglify-js");
 const pluginPWA = require("eleventy-plugin-pwa");
+const includesFilter = require("./src/_includes/includes.js");
 const dateTime = require("./src/_includes/dateTime.js");
 
 module.exports = function(eleventyConfig) {
@@ -42,18 +43,16 @@ module.exports = function(eleventyConfig) {
       return a.data.display_order - b.data.display_order;
     });
   });
+  eleventyConfig.addFilter("includes", includesFilter);
   eleventyConfig.addFilter("date", function(dateString) {
     return dateTime(dateString);
   });
   eleventyConfig.addNunjucksFilter("dateDisplay", function(date) {
     return date.toISOString();
   });
-  //merge directory and page tags (https://stackoverflow.com/questions/55496831/how-can-an-eleventy-site-display-a-list-of-pages-in-a-directory)
+  // merge directory and page tags (https://stackoverflow.com/questions/55496831/how-can-an-eleventy-site-display-a-list-of-pages-in-a-directory)
   eleventyConfig.setDataDeepMerge(true);
 
-  const includesFilter = require("./src/_includes/includes.js");
-
-  eleventyConfig.addFilter("includes", includesFilter);
   eleventyConfig.addShortcode("date", dateTime);
 
   eleventyConfig.addPairedShortcode("video", function(url, caption) {
