@@ -445,7 +445,7 @@ QSOs 185&ndash;196 made in the Island Festival of 2014 (images: [day 1](https://
 -->
 {% endcomment %}
 
-We are currently using yaLOG as the logbook program for our activities: <a href="https://yalog.net/" target="_blank">https://yalog.net/</a>
+We are currently using yaLOG as the logbook program for our activities: <a href="https://yalog.net/">https://yalog.net/</a>
 
 If you are in the log and wish to get the QSL, you can send your QSL with standard contribution to: Timo, P.O.Box 7, 65301 Vaasa, Finland
 
