@@ -6,8 +6,8 @@
 	<ul>
 		<li class="card-activation-info">{{ activation.data.description }}</li>
 		<li class="card-activation-operators"><span>Operators:</span> {{ activation.data.operators | join(", ") }}</li>
-		<li class="card-activation-start"><span>Start:</span> {{ activation.data.start }}</li>
-		<li class="card-activation-end"><span>End:</span> {{ activation.data.end }}</li>
+		<li class="card-activation-start"><span>Start:</span> {{ activation.data.start | date | safe }}</li>
+		<li class="card-activation-end"><span>End:</span> {{ activation.data.end | date | safe }}</li>
 	</ul>
 	</article>
 	</a>
