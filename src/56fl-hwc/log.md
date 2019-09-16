@@ -6,7 +6,7 @@ display_order: 3
 
 # 56FL/HWC Log
 
-Current log updated 30/06/2011
+Current log updated {% date '30/06/2011' %}
 
 Operators: 56FL113 Panu (QSO nr. 1–325), 56FL001 Timo (QSO nr. 326–)
 
