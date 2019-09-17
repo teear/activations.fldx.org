@@ -9,15 +9,28 @@
 module.exports = function(dateString) {
   let dateRegExp = /^\d{1,2}\/\d{1,2}\/\d{4}$/; // D/M/YYYY or DD/MM/YYYYY
   let dateRegExpMonthYear = /^\d{1,2}\/\d{4}$/; // MM/YYYY or M/YYYY
+  let dateRegExpYear = /^\d{4}$/; // YYYY
+
+  // if dateString is a number convert it to string
+  if (typeof dateString === "number") {
+    dateString = dateString.toString();
+  }
 
   // if string does not match regex return the string
-  if (!dateString.match(dateRegExp) && !dateString.match(dateRegExpMonthYear)) {
+  if (
+    !dateString.match(dateRegExp) &&
+    !dateString.match(dateRegExpMonthYear) &&
+    !dateString.match(dateRegExpYear)
+  ) {
     return dateString;
+  }
+  if (dateString.match(dateRegExpYear)) {
+    return `<time datetime="${dateString}">${dateString}</time>`;
   }
   ISODateString = dateString.split("/").reverse();
   ISODateString = ISODateString.map(item =>
     item.length === 1 ? "0" + item : item
   );
   ISODateString = ISODateString.join("-");
-  return '<time datetime="' + ISODateString + '">' + dateString + "</time>";
+  return `<time datetime="${ISODateString}">${dateString}</time>`;
 };
