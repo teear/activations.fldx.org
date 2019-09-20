@@ -3,6 +3,7 @@ const uglifyjs = require("uglify-js");
 const pluginPWA = require("eleventy-plugin-pwa");
 const includesFilter = require("./src/_includes/includes.js");
 const dateTime = require("./src/_includes/dateTime.js");
+const man = require("./src/_includes/manager.js");
 
 module.exports = function(eleventyConfig) {
   templateFormats: [
@@ -54,7 +55,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
 
   eleventyConfig.addShortcode("date", dateTime);
-
+  eleventyConfig.addShortcode("manager", man);
+  
   eleventyConfig.addPairedShortcode("video", function(url, caption) {
     // Method A: ✅ This works fine
     // return content;
