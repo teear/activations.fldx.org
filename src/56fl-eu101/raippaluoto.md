@@ -3,6 +3,7 @@ title: Info About Raippaluoto Island
 meta_description: Information about Raippaluoto island in the Kvarken Archipelago
 display_order: 2
 ---
+
 # Info About Raippaluoto Island
 
 In the sea area outside the city of Vaasa (The Kvarken Archipelago) there are many islands and this area is the first UNESCO Natural Heritage site in Finland.
@@ -11,12 +12,10 @@ Raippaluoto is the main island in the Kvarken area which is the narrowest point 
 
 ## Some facts about Raippaluoto
 
-<ul>
-<li>Raippaluoto together with Bj&ouml;rk&ouml;by has a total of over 2000 inhabitants.</li>
-<li>Raippaluoto is one of the largest islands in Finland, the size is about 150 square kilometres (58 sq mi).</li>
-<li>Raippaluoto bridge is Finland's longest bridge, it is 1 045 m long, it's down course height is 26 m and the width of the center hole is 250m.</li>
-<li>A large part of the Raippaluoto archipelago has been designated a UNESCO <a href="https://whc.unesco.org/en/list/898/" title="World Heritage List: High Coast / Kvarken Archipelago">World Heritage Site</a>.</li>
-</ul>
+- Raippaluoto together with Bj&ouml;rk&ouml;by has a total of over 2000 inhabitants.
+- Raippaluoto is one of the largest islands in Finland, the size is about 150 square kilometres (58 sq mi).
+- Raippaluoto bridge is Finland's longest bridge, it is 1 045 m long, it's down course height is 26 m and the width of the center hole is 250m.
+- A large part of the Raippaluoto archipelago has been designated a UNESCO <a href="https://whc.unesco.org/en/list/898/" title="World Heritage List: High Coast / Kvarken Archipelago">World Heritage Site</a>.
 
 ## Raippaluoto on the Map
 

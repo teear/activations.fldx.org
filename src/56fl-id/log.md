@@ -4,11 +4,11 @@ title: 56FL/ID Log
 display_order: 4
 ---
 
-# 56FL/ID Log 2011&ndash;2014
+# 56FL/ID Log {% date '2011' %}&ndash;{% date '2014' %}
 
 Operators: 56FL001 (QSO nr. 1&ndash;13, 20&ndash;28, 29&ndash;45, 46&ndash;74) 56FL113 Panu (QSO nr. 14&ndash;19)
 
-QSOs in 2011: 1&ndash;28, in 2013: 29&ndash;45, in 2014: 46&ndash;74
+QSOs in {% date '2011' %}: 1&ndash;28, in {% date '2013' %}: 29&ndash;45, in {% date '2014' %}: 46&ndash;74
 
 <table class="log">
 <thead>

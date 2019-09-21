@@ -2,7 +2,8 @@
 title: Images and Info About the Activity
 display_order: 3
 ---
-<h1>Images and Info About the Activity</h1>
+
+# Images and Info About the Activity
 
 <figure class="photo">
 <img src="/56fl-eu101/images/Replot_Bridge_56FL113_Mobile.jpg" width="800" height="600" alt="Road with Raippaluoto bridge in the distance">
@@ -39,19 +40,12 @@ GPS location from the navigator in the mobile on 2nd of December 2011 (56FL113 a
 </figcaption>
 </figure>
 
-
-<h2>The QSL Card</h2>
+## The QSL Card
 
 <p><a class="image-link" href"/56fl-eu101/images/FF---56FL_eu101.jpg"><img src="/56fl-eu101/images/FF---56FL_eu101-WEB.jpg" alt="56FL/EU101 QSL card with Raippaluoto bridge and the sea"></a></p>
 
+## QSL Manager
 
-<h2>QSL Manager</h2>
+{% manager '56FL001' %}
 
-<p>
-Timo<br>
-P.O.Box 7<br>
-65301 Vaasa<br>
-Finland
-</p>
-
-<p>Standard contribution is required</p>
+Standard contribution is required

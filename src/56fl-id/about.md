@@ -21,11 +21,6 @@ It is traditional for many Finnish families to light two candles in each window 
 
 ## QSL Manager
 
-<address>
-Timo<br>
-P.O.Box 7<br>
-65301 Vaasa<br>
-Finland
-</address>
+{% manager '56FL001' %}
 
 Contribution is voluntary

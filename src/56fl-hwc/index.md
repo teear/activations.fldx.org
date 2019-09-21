@@ -9,7 +9,7 @@ display_order: 1
 
 # 56FL/HWC
 
-SES Celebrating Finland's win in the Ice Hockey World Championship in 2011
+SES Celebrating Finland's win in the Ice Hockey World Championship in {% date '2011' %}
 </header>
 
 <figure class="photo">
@@ -19,7 +19,7 @@ SES Celebrating Finland's win in the Ice Hockey World Championship in 2011
 </figure>
 
 After 16 years of waiting Finland won the ice hockey world championship for the second time.
-In the final match in Slovakia, Finland beat Sweden with goals 6-1. The first world championship for Finland was in 1995 also against Sweden.
+In the final match in Slovakia, Finland beat Sweden with goals 6–1. The first world championship for Finland was in {% date '1995' %} also against Sweden.
 
 [https://en.wikipedia.org/wiki/2011_IIHF_World_Championship](https://en.wikipedia.org/wiki/2011_IIHF_World_Championship)
 
@@ -27,13 +27,8 @@ In the final match in Slovakia, Finland beat Sweden with goals 6-1. The first wo
 
 ![56FL/HWC QSL card with Finland flag, the hockey team and people celebrating](/56fl-hwc/images/FF-56FL_HWC-WEB.jpg)
 
-<h2>QSL Manager</h2>
+## QSL Manager
 
-<p>
-Timo<br>
-P.O.Box 7<br>
-65301 Vaasa<br>
-Finland
-</p>
+{% manager '56FL001' %}
 
-<p>Standard contribution is required</p>
+Standard contribution is required
