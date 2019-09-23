@@ -1,5 +1,6 @@
 ---
 title: About Finnish Independence Day
+meta_description: Information about the Finnish independence day held on 6th of December
 display_order: 2
 ---
 

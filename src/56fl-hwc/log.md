@@ -1,6 +1,7 @@
 ---
 tags: ['log']
 title: 56FL/HWC Log
+meta_description: Log of the 56FL/HWC Hockey world championship SES
 display_order: 3
 ---
 

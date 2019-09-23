@@ -1,6 +1,7 @@
 ---
 tags: ['media']
 title: Videos
+meta_description: Videos of the 56FL/ID Finnish independence day SES
 display_order: 3
 ---
 

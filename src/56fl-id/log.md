@@ -1,6 +1,7 @@
 ---
 tags: ['log']
 title: 56FL/ID Log
+meta_description: Log of the 56FL/ID Finnish independence day SES
 display_order: 4
 ---
 

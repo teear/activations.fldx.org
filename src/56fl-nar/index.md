@@ -1,6 +1,7 @@
 ---
 tags: ['activations']
 title: 56FL/NAR
+meta_description: 56FL/NAR Garden town Närpes SES by 56FL114 Pete in 2011
 display_order: 1
 ---
 

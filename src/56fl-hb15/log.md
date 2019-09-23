@@ -1,6 +1,7 @@
 ---
 tags: ['log']
 title: 56FL/HB15 Log
+meta_description: Log of the 56FL/HB15 15 years of Foxtrot Lima SES
 display_order: 3
 ---
 

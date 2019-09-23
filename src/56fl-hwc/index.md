@@ -1,7 +1,7 @@
 ---
 tags: ['activations']
 title: 56FL/HWC
-meta_description: SES Celebrating Finland's win in the Ice Hockey World Championship in 2011
+meta_description: 56FL/HWC SES celebrating Finland's win in the ice hockey world championship in 2011
 display_order: 1
 ---
 

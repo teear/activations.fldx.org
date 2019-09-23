@@ -1,6 +1,7 @@
 ---
 tags: ['media']
 title: Video
+meta_description: Video from the 56FL/NAR Garden town Närpes SES
 display_order: 2
 ---
 

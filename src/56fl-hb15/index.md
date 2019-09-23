@@ -1,6 +1,7 @@
 ---
 tags: ['activations']
 title: 56FL/HB15
+meta_description: 56FL/HB15 SES celebrating 15 years of the Foxtrot Lima DX group in 2013
 display_order: 1
 ---
 

@@ -1,6 +1,7 @@
 ---
 tags: ["activations"]
 title: 56FL/EU101
+meta_description: 56FL/EU101 IOTA from Raippaluoto and Björkö islands in the Kvarken archipelago near the city of Vaasa
 display_order: 1
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Images and Info About the Activity
+meta_description: Images and info about the 56FL/EU101 IOTA from Raippaluoto/Björkö island
 display_order: 3
 ---
 

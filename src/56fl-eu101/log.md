@@ -1,6 +1,7 @@
 ---
 tags: ['log']
 title: 56FL/EU101 Log
+meta_description: Log of the 56FL/EU101 IOTA from Raippaluoto/Björkö island
 display_order: 5
 ---
 

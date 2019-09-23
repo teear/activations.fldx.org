@@ -1,6 +1,7 @@
 ---
 tags: ['activations']
 title: 56FL/ID
+meta_description: 56FL/ID Finnish independence day SES active on 6th of December
 display_order: 1
 ---
 
