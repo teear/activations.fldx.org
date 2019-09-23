@@ -33,6 +33,7 @@ navigator.serviceWorker.register("/service-worker.js");
 <meta property="og:site_name" content="{{ site.name }}">
 <meta pame="twitter:description" property="og:description" content="{{ meta_description or description or site.description }}">
 <meta name="twitter:site" content="{{ site.twitter }}">
+<meta name="twitter:url" property="og:url" content="{{ site.baseurl }}{{ page.url }}">
 
 {% set css %}
 {% include "css/styles.css" %}
