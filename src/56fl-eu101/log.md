@@ -9,11 +9,11 @@ display_order: 5
 
 Current log updated {% date '20/08/2014' %}<!-- 27/09/2013, 05/12/2011-->
 
-Operators: 56FL113 Panu with mobile setup (QSO nr. 1&ndash;181), 56FL114 Pete (QSO nr. 182&ndash;184), 56FL001 Timo (QSO nr. 185&ndash;196, 197&ndash;214)
+Operators: 56FL113 Panu with a mobile setup (QSO nr. 1&ndash;181), 56FL114 Pete (QSO nr. 182&ndash;184), 56FL001 Timo (QSO nr. 185&ndash;196, 197&ndash;214)
 
 QSOs on {% date '15/11/2011' %} (1&ndash;8) and {% date '30/06/2016' %} (197&ndash;214) from Raippaluoto (Replot) island, others from Björkö island
 
-QSOs 185&ndash;196 made in the Island Festival of 2014 (images: [day 1](https://l.fldx.org/islfest-1), [day 2](https://l.fldx.org/islfest2)
+QSOs 185&ndash;196 made in the Island Festival of {% date '2014' %} (images: [day 1](https://l.fldx.org/islfest-1), [day 2](https://l.fldx.org/islfest2)
 
 <table class="log">
 <thead>
