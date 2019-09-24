@@ -1,13 +1,23 @@
 {
-	"tags": ["56fl-hb15"],
-	"bg": "/56fl-hb15/images/56fl_hb15-bg.jpg",
-	"layout": "activation.njk",
-	"callsign": "56FL/HB15",
-	"description": "15 Years of Foxtrot Lima",
-	"image": "/56fl-hb15/images/FF-56FL_HB15-WEB.jpg",
-	"image_alt": "56FL/HB15 QSL card with a birthday cake",
-	"operators": ["56FL113", "56FL001"],
-	"start": "25/10/2013",
-	"end": "31/12/2013",
-	"activated": ["2013"]
+  "tags": ["56fl-hb15"],
+  "bg": "/56fl-hb15/images/56fl_hb15-bg.jpg",
+  "layout": "activation.njk",
+  "callsign": "56FL/HB15",
+  "description": "15 Years of Foxtrot Lima",
+  "image": "/56fl-hb15/images/FF-56FL_HB15-WEB.jpg",
+  "image_alt": "56FL/HB15 QSL card with a birthday cake",
+  "operators": ["56FL113", "56FL001"],
+  "start": "25/10/2013",
+  "end": "31/12/2013",
+  "activated": [
+    "25/10/2013",
+    "26/10/2013",
+    "27/10/2013",
+    "02/11/2013",
+    "03/11/2013",
+    "05/11/2013",
+    "29/11/2013",
+    "08/12/2013",
+    "29/12/2013"
+  ]
 }

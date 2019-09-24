@@ -1,14 +1,22 @@
 {
-	"tags": ["56fl-eu101"],
-	"bg": "/56fl-eu101/images/56fl_eu101-bg.jpg",
-	"layout": "activation.njk",
-	"callsign": "56FL/EU101",
-	"description": "Raippaluoto / Björkö Island IOTA",
-	"meta_description": "56FL-EU101, IOTA from Raippaluoto/Björkö Island",
-	"image": "/56fl-eu101/images/FF---56FL_eu101-WEB.jpg",
-	"image_alt": "56FL/EU101 QSL card with a view of the Raippaluoto bridge and the sea",
-	"operators": ["56FL113", "56FL114", "56FL001"],
-	"start": "15/11/2011",
-	"end": "Sporadic activity",
-	"activated": ["06/12/2011", "06/12/2013", "06/12/2014"]
+  "tags": ["56fl-eu101"],
+  "bg": "/56fl-eu101/images/56fl_eu101-bg.jpg",
+  "layout": "activation.njk",
+  "callsign": "56FL/EU101",
+  "description": "Raippaluoto / Björkö Island IOTA",
+  "meta_description": "56FL-EU101, IOTA from Raippaluoto/Björkö Island",
+  "image": "/56fl-eu101/images/FF---56FL_eu101-WEB.jpg",
+  "image_alt": "56FL/EU101 QSL card with a view of the Raippaluoto bridge and the sea",
+  "operators": ["56FL113", "56FL114", "56FL001"],
+  "start": "15/11/2011",
+  "end": "Sporadic activity",
+  "activated": [
+    "15/11/2011",
+    "18/11/2011",
+    "02/12/2011",
+    "23/03/2012",
+    "07/06/2014",
+    "08/06/2014",
+    "30/06/2016"
+  ]
 }
