@@ -178,19 +178,20 @@ main {
   margin-bottom: 2em;
 }
 
+/* 	overrides .image-link style removal because of specificity,
+		fixed with !important on .image-link styles */
 .activation-site main a {
   color: #fff;
   text-align: center;
   text-decoration: none;
   background-image: linear-gradient(transparent 90%, #78b4f1 10%);
   background-repeat: repeat-x;
-}
-
-/* 	overrides .image-link style removal because of specificity,
-		fixed with !important on .image-link styles */
-.activation-site main a:hover {
-  color: #ff0;
-	background-image: linear-gradient(transparent 90%,#ff0 10%);
+  &:hover,
+  &:focus,
+  &:active {
+    color: #ff0;
+    background-image: linear-gradient(transparent 90%, #ff0 10%);
+  }
 }
 
 .image-link,
