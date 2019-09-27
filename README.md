@@ -38,19 +38,19 @@ npm start
 
 Run a development server
 
-	`npm start` or `npm run dev`
+	npm start or npm run dev
 
 Run a development server with production settings
 
-	`npm run prod`
+	npm run prod
 
 Build the site
 
-	`npm run build`
+	npm run build
 
 Delete the `dist` directory
 
-	`npm run clean`
+	npm run clean
 
 Note that images are not copied automatically to `dist` from `src` by
 Eleventy, `npm run build:images` handles image compression (reads from
