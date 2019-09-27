@@ -27,13 +27,13 @@ navigator.serviceWorker.register("/service-worker.js");
 <!-- open graph and twitter -->
 <meta property="og:type" content="article">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" property="og:title" content="{{ title }} &ndash; {{ callsign }} | {{ site.name }}">
-<meta name="twitter:image" property="og:image" content="{{ site.baseurl }}{{ image or site.image }}">
-<meta name="twitter:image:alt" property="og:image:alt" content="{{ image_alt or site.image_alt }}">
+<meta property="og:title" name="twitter:title" content="{{ title }} &ndash; {{ callsign }} | {{ site.name }}">
+<meta property="og:image" name="twitter:image" content="{{ site.baseurl }}{{ image or site.image }}">
+<meta property="og:image:alt" name="twitter:image:alt" content="{{ image_alt or site.image_alt }}">
 <meta property="og:site_name" content="{{ site.name }}">
-<meta pame="twitter:description" property="og:description" content="{{ meta_description or description or site.description }}">
+<meta property="og:description" name="twitter:description" content="{{ meta_description or description or site.description }}">
 <meta name="twitter:site" content="{{ site.twitter }}">
-<meta name="twitter:url" property="og:url" content="{{ site.baseurl }}{{ page.url }}">
+<meta property="og:url" name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">
 
 {% set css %}
 {% include "css/styles.css" %}
