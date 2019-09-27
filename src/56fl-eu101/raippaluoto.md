@@ -6,16 +6,16 @@ display_order: 2
 
 # Info About Raippaluoto Island
 
-In the sea area outside the city of Vaasa (The Kvarken Archipelago) there are many islands and this area is the first UNESCO Natural Heritage site in Finland.
+In the sea area outside the city of [Vaasa](https://www.vaasa.fi/en/) ([The Kvarken Archipelago](https://www.kvarkenworldheritage.fi)) there are many islands and this area is the first <a href="https://whc.unesco.org/en/list/898/" title="World Heritage List: High Coast / Kvarken Archipelago">UNESCO Natural Heritage site in Finland</a>.
 
-Raippaluoto is the main island in the Kvarken area which is the narrowest point of the Gulf of Bothnia.
+[Raippaluoto](https://en.wikipedia.org/wiki/Replot) is the main island in the Kvarken area which is the narrowest point of the [Gulf of Bothnia](https://en.wikipedia.org/wiki/Gulf_of_Bothnia).
 
 ## Some facts about Raippaluoto
 
-- Raippaluoto together with Bj&ouml;rk&ouml;by has a total of over 2000 inhabitants.
+- Raippaluoto together with [Bj&ouml;rk&ouml;](https://en.wikipedia.org/wiki/Bj%C3%B6rk%C3%B6_(Korsholm)) has a total of over 2000 inhabitants.
 - Raippaluoto is one of the largest islands in Finland, the size is about 150 square kilometres (58 sq mi).
 - Raippaluoto bridge is Finland's longest bridge, it is 1 045 m long, it's down course height is 26 m and the width of the center hole is 250m.
-- A large part of the Raippaluoto archipelago has been designated a UNESCO <a href="https://whc.unesco.org/en/list/898/" title="World Heritage List: High Coast / Kvarken Archipelago">World Heritage Site</a>.
+- A large part of the Raippaluoto archipelago has been designated a UNESCO World Heritage Site.
 
 ## Raippaluoto on the Map
 
@@ -45,8 +45,8 @@ Raippaluoto bridge connects Raippaluoto island to the mainland and is the longes
 
 ## Links
 
-[The Kvarken Archipelago](https://www.kvarkenworldheritage.fi)
-
-[Korsholm Archipelago](http://www.korsholmsskargard.fi/index.php?sprak=eng)
-
-<img src="/56fl-eu101/images/kvarkenlogo_small.png" alt="Merenkurkku/Kvarken &ndash; World Heritage Site" width="315" height="245">
+- [Gulf of Bothnia](https://en.wikipedia.org/wiki/Gulf_of_Bothnia)
+- [The Kvarken Archipelago](https://www.kvarkenworldheritage.fi)
+- [Korsholm Archipelago](http://www.korsholmsskargard.fi/index.php?sprak=eng)
+- [Raippaluoto](https://en.wikipedia.org/wiki/Replot) / [Bj&ouml;rk&ouml;](https://en.wikipedia.org/wiki/Bj%C3%B6rk%C3%B6_(Korsholm))
+{% comment %}<img src="/56fl-eu101/images/kvarkenlogo_small.png" alt="Merenkurkku/Kvarken &ndash; World Heritage Site" width="315" height="245">{% endcomment %}
