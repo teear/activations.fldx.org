@@ -14,7 +14,7 @@ In the sea area outside the city of [Vaasa](https://www.vaasa.fi/en/) ([The Kvar
 
 - Raippaluoto together with [Bj&ouml;rk&ouml;](https://en.wikipedia.org/wiki/Bj%C3%B6rk%C3%B6_(Korsholm)) has a total of over 2000 inhabitants.
 - Raippaluoto is one of the largest islands in Finland, the size is about 150 square kilometres (58 sq mi).
-- Raippaluoto bridge is Finland's longest bridge, it is 1 045 m long, it's down course height is 26 m and the width of the center hole is 250m.
+- Raippaluoto bridge is Finland's longest bridge, it is 1 045 m long, it's down course height is 26 m and the width of the center hole is 250 m.
 - A large part of the Raippaluoto archipelago has been designated a UNESCO World Heritage Site.
 
 ## Raippaluoto on the Map
