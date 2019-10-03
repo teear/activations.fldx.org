@@ -35,7 +35,7 @@ GPS location from the navigator in the mobile on 2nd of December 2011 (56FL113 a
 </figure>
 
 <figure class="photo">
-<img src="/56fl-eu101/images/56FL114_23032012_Bjorko.jpg" alt="56FL114 showing thumb up from the driver's side window of a Toyota with an antenna behind it and the car parked by the icy sea.">
+<img src="/56fl-eu101/images/56FL114_23032012_Bjorko.jpg" width="1000" height="750" alt="56FL114 showing thumb up from the driver's side window of a Toyota with an antenna behind it and the car parked by the icy sea.">
 <figcaption>
 56FL114 Pete at Björkö on 23rd of March 2012
 </figcaption>
@@ -43,7 +43,7 @@ GPS location from the navigator in the mobile on 2nd of December 2011 (56FL113 a
 
 ## The QSL Card
 
-<p><a class="image-link" href"/56fl-eu101/images/FF---56FL_eu101.jpg"><img src="/56fl-eu101/images/FF---56FL_eu101-WEB.jpg" alt="56FL/EU101 QSL card with a view of the Raippaluoto bridge and the sea"></a></p>
+<p><a class="image-link" href"/56fl-eu101/images/FF---56FL_eu101.jpg"><img src="/56fl-eu101/images/FF---56FL_eu101-WEB.jpg" width="600" height="389" alt="56FL/EU101 QSL card with a view of the Raippaluoto bridge and the sea"></a></p>
 
 ## QSL Manager
 
