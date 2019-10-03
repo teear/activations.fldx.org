@@ -13,8 +13,7 @@ SES Celebrating Finland's win in the Ice Hockey World Championship in {% date '2
 </header>
 
 <figure class="photo">
-
-![Finnish ice hockey player holding a trophy and smiling](/56fl-hwc/images/koivu_pokaali.jpg)
+<img src="/56fl-hwc/images/koivu_pokaali.jpg" width="960" height="540" alt="Finnish ice hockey player holding a trophy and smiling">
 <figcaption>Team captain Mikko Koivu holding the trophy (Image: Yle)</figcaption>
 </figure>
 
@@ -25,7 +24,7 @@ In the final match in Slovakia, Finland beat Sweden with goals 6–1. The first 
 
 ## The QSL Card
 
-![56FL/HWC QSL card with Finland flag, the hockey team and people celebrating](/56fl-hwc/images/FF-56FL_HWC-WEB.jpg)
+<p><img src="/56fl-hwc/images/FF-56FL_HWC-WEB.jpg" width="600" height="392" alt="56FL/HWC QSL card with Finland flag, the hockey team and people celebrating"></p>
 
 ## QSL Manager
 

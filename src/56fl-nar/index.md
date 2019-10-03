@@ -29,7 +29,7 @@ QSL via 56FL114: Mr. Pete. P.O.Box 7, 65301 Vaasa, Finland
 ## The QTH On Map
 
 <figure class="map">
-<img src="https://maps.googleapis.com/maps/api/staticmap?size=640x500&amp;zoom=6&amp;language=en&amp;markers=size:normal%7ccolor:blue%7Clabel:N%7cNärpes,+Finland&amp;key=AIzaSyDhGoEDyrfCM_Msjx7P4Cw-T5jQ2ztN2h0" alt="Närpes, Finland on a  map">
+<img src="https://maps.googleapis.com/maps/api/staticmap?size=640x500&amp;zoom=6&amp;language=en&amp;markers=size:normal%7ccolor:blue%7Clabel:N%7cNärpes,+Finland&amp;key=AIzaSyDhGoEDyrfCM_Msjx7P4Cw-T5jQ2ztN2h0" width="640" height="500" alt="Närpes, Finland on a map">
 <figcaption>Närpes (Närpiö)</figcaption>
 </figure>
 

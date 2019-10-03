@@ -20,12 +20,12 @@ In the sea area outside the city of [Vaasa](https://www.vaasa.fi/en/) ([The Kvar
 ## Raippaluoto on the Map
 
 <figure class="map">
-<img src="https://maps.googleapis.com/maps/api/staticmap?size=640x500&amp;zoom=7&amp;language=en&amp;markers=size:normal%7ccolor:blue%7Clabel:R%7cReplot,+Finland&amp;key=AIzaSyDhGoEDyrfCM_Msjx7P4Cw-T5jQ2ztN2h0" alt="Raippaluoto (Replot) on map">
+<img src="https://maps.googleapis.com/maps/api/staticmap?size=640x500&amp;zoom=7&amp;language=en&amp;markers=size:normal%7ccolor:blue%7Clabel:R%7cReplot,+Finland&amp;key=AIzaSyDhGoEDyrfCM_Msjx7P4Cw-T5jQ2ztN2h0" width="640" height="500" alt="Raippaluoto (Replot) on map">
 <figcaption>Raippaluoto island in the middle west coast of Finland, 21 division Sweden is on the left.</figcaption>
 </figure>
 
 <figure class="map">
-<img src="https://maps.googleapis.com/maps/api/staticmap?size=640x500&amp;zoom=9&amp;language=en&amp;markers=size:normal%7ccolor:blue%7Clabel:R%7cReplot,+Finland&amp;key=AIzaSyDhGoEDyrfCM_Msjx7P4Cw-T5jQ2ztN2h0" alt="Raippaluoto (Replot) on map">
+<img src="https://maps.googleapis.com/maps/api/staticmap?size=640x500&amp;zoom=9&amp;language=en&amp;markers=size:normal%7ccolor:blue%7Clabel:R%7cReplot,+Finland&amp;key=AIzaSyDhGoEDyrfCM_Msjx7P4Cw-T5jQ2ztN2h0" width="640" height="500" alt="Raippaluoto (Replot) on map">
 <figcaption>Another map with Raippaluoto and Björkö island</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ Raippaluoto bridge connects Raippaluoto island to the mainland and is the longes
 -->
 
 <figure class="photo">
-<img src="/56fl-eu101/images/the-longest-bridge-in-finland.jpg" alt="Raippaluoto (Replot) bridge and the sea">
+<img src="/56fl-eu101/images/the-longest-bridge-in-finland.jpg" width="640" height="480" alt="Raippaluoto (Replot) bridge and the sea">
 <figcaption>Raippaluoto bridge (Image: <a href="https://www.flickr.com/photos/timokoo/438831359/">Timo</a>, <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC BY-NC-ND 2.0</a>)</figcaption>
 </figure>
 
