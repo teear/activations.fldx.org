@@ -1,6 +1,6 @@
 ---
 title: Info About Raippaluoto Island
-meta_description: Information about Raippaluoto island in the Kvarken Archipelago
+meta_description: Information about the Raippaluoto island in the Kvarken Archipelago
 display_order: 2
 ---
 
@@ -21,7 +21,8 @@ In the sea area outside the city of [Vaasa](https://www.vaasa.fi/en/) ([The Kvar
 
 <figure class="map">
 <img src="https://maps.googleapis.com/maps/api/staticmap?size=640x500&amp;zoom=7&amp;language=en&amp;markers=size:normal%7ccolor:blue%7Clabel:R%7cReplot,+Finland&amp;key=AIzaSyDhGoEDyrfCM_Msjx7P4Cw-T5jQ2ztN2h0" width="640" height="500" alt="Raippaluoto (Replot) on map">
-<figcaption>Raippaluoto island in the middle west coast of Finland, 21 division Sweden is on the left.</figcaption>
+<figcaption>Raippaluoto island in the middle west coast of Finland<br>
+21 division Sweden is on the left</figcaption>
 </figure>
 
 <figure class="map">

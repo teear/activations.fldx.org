@@ -11,8 +11,8 @@ display_order: 1
 </header>
 
 <figure class="photo">
-<img src="/56fl-id/images/finland-flag.jpg" width="800" height="533" alt="Finland flag in the wind"">
+<img src="/56fl-id/images/finland-flag.jpg" width="800" height="533" alt="A Finland flag in the wind"">
 <figcaption>Image of the Finland flag (<a href="https://www.flickr.com/photos/photodeus/2911819360/">Flickr/Photodeus</a>)</figcaption>
 </figure>
 
-Finland's Independence Day (Finnish: itsenäisyyspäivä, Swedish: självständighetsdag) is a national public holiday held on 6th of December to celebrate Finland's declaration of independence from the Russian Empire.
+Finland's Independence Day (Finnish: itsenäisyyspäivä, Swedish: självständighetsdag) is a national public holiday held on 6 December to celebrate Finland's declaration of independence from the Russian Empire.
