@@ -11,7 +11,7 @@ module.exports = function(callsign) {
   const man = managers[`${callsign}`];
   const address = [];
   address.push(
-    `<p itemscope itemtype="http://schema.org/PostalAddress" class="address">`
+    `<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="address">`
   );
   if (man.name) {
     address.push(`<span itemprop="name">${man.name}</span><br>`);
