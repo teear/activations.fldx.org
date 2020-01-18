@@ -11,6 +11,7 @@ module.exports = function(dateString) {
   const dateRegExpMonthYear = /^\d{1,2}\/\d{4}$/; // M/YYYY or MM/YYYY
   const dateRegExpYear = /^\d{4}$/; // YYYY
   const dateRegExpDayMonth = /^\d{1,2}\/\d{1,2}$/; // D/M, D/MM, DD/M or DD/MM
+  const dateRegExpDayMonthnameYear = /^\d{1,2}\s[A-Z][a-z]*\s\d{4}$/; // DD Month YYYY
 
   // if dateString is a number convert it to string
   if (typeof dateString === "number") {
@@ -22,7 +23,8 @@ module.exports = function(dateString) {
     !dateString.match(dateRegExp) &&
     !dateString.match(dateRegExpMonthYear) &&
     !dateString.match(dateRegExpYear) &&
-    !dateString.match(dateRegExpDayMonth)
+    !dateString.match(dateRegExpDayMonth) &&
+    !dateString.match(dateRegExpDayMonthnameYear)
   ) {
     return dateString;
   }
@@ -31,7 +33,46 @@ module.exports = function(dateString) {
     return `<time datetime="${dateString}">${dateString}</time>`;
   }
 
-  ISODateString = dateString.split("/").reverse();
+  /* dateRegExpDayMonthnameYear */
+  var months = {
+    Jan: "01",
+    Feb: "02",
+    Mar: "03",
+    Apr: "04",
+    May: "05",
+    Jun: "06",
+    Jul: "07",
+    Aug: "08",
+    Sep: "09",
+    Oct: "10",
+    Nov: "11",
+    Dec: "12",
+    January: "01",
+    February: "02",
+    March: "03",
+    April: "04",
+    May: "05",
+    June: "06",
+    July: "07",
+    August: "08",
+    September: "09",
+    October: "10",
+    November: "11",
+    December: "12"
+  };
+
+  if (dateString.match(dateRegExpDayMonthnameYear)) {
+    var ISODateString = dateString.split(" ");
+    var Month = `${months[ISODateString[1]]}`;
+    if (ISODateString[0].length === 1) {
+      ISODateString[0] = "0" + ISODateString[0];
+    }
+    ISODateString = `${ISODateString[2]}-${Month}-${ISODateString[0]}`;
+    return `<time datetime="${ISODateString}">${dateString}</time>`;
+  }
+  /* dateRegExpDayMonthnameYear END */
+
+  var ISODateString = dateString.split("/").reverse();
   ISODateString = ISODateString.map(item =>
     item.length === 1 ? "0" + item : item
   );
