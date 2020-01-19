@@ -12,7 +12,7 @@ display_order: 2
 <source src="https://fldx.org/activations/56fl_hwc_21052011_op_panu.mp4" type="video/mp4">
 Your browser does not support the video element.
 </video>
-<figcaption>56FL/HWC active on 21/05/2011, Op. 56FL113 Panu</figcaption>
+<figcaption>56FL/HWC active on {% date '21/05/2011' %}, Op. 56FL113 Panu</figcaption>
 </figure>
 
 {% video 'Video on Youtube by 13AT218 (QSO on 21/05/2011)' %}https://www.youtube.com/embed/AUEzFP_ih2g{% endvideo %}

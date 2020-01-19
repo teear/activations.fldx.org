@@ -16,28 +16,28 @@ Taken by 56FL113 Panu from his mobile while driving to the Raippaluoto (Replot) 
 <figure class="photo">
 <img src="/56fl-eu101/images/Bjorkoby_Svedjehamn_1_for_web.jpg" width="584" height="778" alt="A Volkswagen van by the sea with an antenna behind it">
 <figcaption>
-56FL113 Panu's mobile setup on 18 November 2011. This time on Björkö island at Svedjehamn harbour.
+56FL113 Panu's mobile setup on {% date '18 November 2011' %}. This time on Björkö island at Svedjehamn harbour.
 </figcaption>
 </figure>
 
 <figure class="photo">
 <img src="/56fl-eu101/images/56SD113_02122011_Bjorko.jpg" width="768" height="576" alt="A Volkswagen van by the sea with an antenna behind it">
 <figcaption>
-56FL113 Panu's mobile setup on 2 December 2011. This is on Björkö island and Panu is using a loop antenna and a TS-50 with 100w this time.
+56FL113 Panu's mobile setup on {% date '2 December 2011' %}. This is on Björkö island and Panu is using a loop antenna and a TS-50 with 100w this time.
 </figcaption>
 </figure>
 
 <figure class="photo">
 <img src="/56fl-eu101/images/56SD113_02122011_GPS_Location.jpg" width="555" height="417" alt="The GPS location on the Björkö island on a car navigator screen">
 <figcaption>
-A GPS location from the navigator in the mobile on 2 December 2011 (56FL113 at Svedjehamn, Björköby)
+A GPS location from the navigator in the mobile on {% date '2 December 2011' %} (56FL113 at Svedjehamn, Björköby)
 </figcaption>
 </figure>
 
 <figure class="photo">
 <img src="/56fl-eu101/images/56FL114_23032012_Bjorko.jpg" width="1000" height="750" alt="56FL114 showing thumb up from the driver's side window of a Toyota with an antenna behind it and the car parked by the icy sea.">
 <figcaption>
-56FL114 Pete at Svedjehamn harbour, Björkö on 23 March 2012
+56FL114 Pete at Svedjehamn harbour, Björkö on {% date '23 March 2012' %}
 </figcaption>
 </figure>
 

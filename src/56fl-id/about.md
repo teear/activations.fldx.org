@@ -6,7 +6,7 @@ display_order: 2
 
 # About Finnish Independence Day
 
-Finland's Independence Day (Finnish: itsenäisyyspäivä, Swedish: självständighetsdag) is a national public holiday held on 6 December to celebrate Finland's declaration of independence from the Russian Empire. The movement for Finland's Independence started after the revolutions in Russia, caused by the disturbances from the defeats of the First World War. This gave an opportunity for Finland to withdraw from Russia. After several disagreements between the non-socialists and the social-democrats about the matter of who should have the power in Finland, the parliament, led by Pehr Evind Svinhufvud, finally declared Finland as an independent state, on 6 December {% date '1917' %}.
+Finland's Independence Day (Finnish: itsenäisyyspäivä, Swedish: självständighetsdag) is a national public holiday held on 6 December to celebrate Finland's declaration of independence from the Russian Empire. The movement for Finland's Independence started after the revolutions in Russia, caused by the disturbances from the defeats of the First World War. This gave an opportunity for Finland to withdraw from Russia. After several disagreements between the non-socialists and the social-democrats about the matter of who should have the power in Finland, the parliament, led by Pehr Evind Svinhufvud, finally declared Finland as an independent state, on {% date '6 December 1917' %}.
 
 <img src="/56fl-id/images/finland-881128_640.png" width="370" height="640" alt="A Finland map outline with colors of the Finland flag" class="article-side-image">
 
