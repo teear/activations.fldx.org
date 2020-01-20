@@ -9,8 +9,10 @@
 module.exports = function(dateString) {
   const dateRegExp = /^\d{1,2}\/\d{1,2}\/\d{4}$/; // D/M/YYYY or DD/MM/YYYYY
   const dateRegExpMonthYear = /^\d{1,2}\/\d{4}$/; // M/YYYY or MM/YYYY
+  const dateRegExpMonthnameYear = /^[A-Z][a-z]*\s\d{4}$/; // Month YYYY
   const dateRegExpYear = /^\d{4}$/; // YYYY
   const dateRegExpDayMonth = /^\d{1,2}\/\d{1,2}$/; // D/M, D/MM, DD/M or DD/MM
+  const dateRegExpDayMonthname = /^\d{1,2}\s[A-Z][a-z]*$/; // D Month
   const dateRegExpDayMonthnameYear = /^\d{1,2}\s[A-Z][a-z]*\s\d{4}$/; // DD Month YYYY
 
   // if dateString is a number convert it to string
@@ -22,8 +24,10 @@ module.exports = function(dateString) {
   if (
     !dateString.match(dateRegExp) &&
     !dateString.match(dateRegExpMonthYear) &&
+    !dateString.match(dateRegExpMonthnameYear) &&
     !dateString.match(dateRegExpYear) &&
     !dateString.match(dateRegExpDayMonth) &&
+    !dateString.match(dateRegExpDayMonthname) &&
     !dateString.match(dateRegExpDayMonthnameYear)
   ) {
     return dateString;
@@ -33,7 +37,6 @@ module.exports = function(dateString) {
     return `<time datetime="${dateString}">${dateString}</time>`;
   }
 
-  /* dateRegExpDayMonthnameYear */
   var months = {
     Jan: "01",
     Feb: "02",
@@ -61,16 +64,37 @@ module.exports = function(dateString) {
     December: "12"
   };
 
+  /* dateRegExpDayMonthnameYear */
   if (dateString.match(dateRegExpDayMonthnameYear)) {
     var ISODateString = dateString.split(" ");
-    var Month = `${months[ISODateString[1]]}`;
+    var month = `${months[ISODateString[1]]}`;
     if (ISODateString[0].length === 1) {
       ISODateString[0] = "0" + ISODateString[0];
     }
-    ISODateString = `${ISODateString[2]}-${Month}-${ISODateString[0]}`;
+    ISODateString = `${ISODateString[2]}-${month}-${ISODateString[0]}`;
     return `<time datetime="${ISODateString}">${dateString}</time>`;
   }
   /* dateRegExpDayMonthnameYear END */
+
+  /* dateRegExpDayMonthname */
+  if (dateString.match(dateRegExpDayMonthname)) {
+    var ISODateString = dateString.split(" ");
+    //var month = `${months[ISODateString[1]]}`;
+    if (ISODateString[0].length === 1) {
+      ISODateString[0] = "0" + ISODateString[0];
+    }
+    ISODateString = `${months[ISODateString[1]]}-${ISODateString[0]}`;
+    return `<time datetime="${ISODateString}">${dateString}</time>`;
+  }
+  /* dateRegExpDayMonthname END */
+
+  /* dateRegExpMonthnameYear */
+  if (dateString.match(dateRegExpMonthnameYear)) {
+    var ISODateString = dateString.split(" ");
+    ISODateString = `${ISODateString[1]}-${months[ISODateString[0]]}`;
+    return `<time datetime="${ISODateString}">${dateString}</time>`;
+  }
+  /* dateRegExpMonthnameYear END */
 
   var ISODateString = dateString.split("/").reverse();
   ISODateString = ISODateString.map(item =>
