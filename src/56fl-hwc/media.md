@@ -12,11 +12,11 @@ display_order: 2
 <source src="https://fldx.org/activations/56fl_hwc_21052011_op_panu.mp4" type="video/mp4">
 Your browser does not support the video element.
 </video>
-<figcaption>56FL/HWC active on {% date '21/05/2011' %}, Op. 56FL113 Panu</figcaption>
+<figcaption>56FL/HWC op. 56FL113 Panu active on {% date '21/05/2011' %}</figcaption>
 </figure>
 
 {% video 'Video on Youtube by 13AT218 (QSO on 21/05/2011)' %}https://www.youtube.com/embed/AUEzFP_ih2g{% endvideo %}
 
-{% video '19PX001 Johan and 56FL/HWC Timo 10/06/2011' %}https://www.youtube.com/embed/KrotkAqgRF8{% endvideo %}
+{% video '19PX001 Johan and 56FL/HWC Timo on 10/06/2011' %}https://www.youtube.com/embed/KrotkAqgRF8{% endvideo %}
 
-{% audio '56FL/HWC on air (Op. 56FL113, Panu)' %}/56fl-hwc/media/56fl_hwc_21_05_2011.mp3{% endaudio %}
+{% audio '56FL/HWC op. 56FL113 Panu on air' %}/56fl-hwc/media/56fl_hwc_21_05_2011.mp3{% endaudio %}

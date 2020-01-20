@@ -12,4 +12,4 @@ display_order: 1
 
 <p><img src="/56fl-hb15/images/FF-56FL_HB15-WEB.jpg" width="600" height="392" alt="The 56FL/HB15 QSL card with a birthday cake"></p>
 
-The Foxtrot Lima DX group was founded in {% date 'October 1998' %} at the city of Vaasa, in {% date '2013' %} Foxtrot Lima DX group was 15 years old.
+The Foxtrot Lima DX group was founded in {% date 'October 1998' %} at the city of Vaasa, and in {% date '2013' %} Foxtrot Lima DX group was 15 years old.

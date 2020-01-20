@@ -7,16 +7,17 @@ display_order: 3
 
 # 56FL/HB15 Log
 
-Current log updated {% date '04/11/2013' %}
+Current log updated on {% date '04/11/2013' %}
 
-Operators: 56FL113 Panu (QSO nr. 1–200), 56FL001 Timo (QSO nr. 200–248)
+Operators: 56FL113 Panu (QSO no 1–200), 56FL001 Timo (QSO no 200–248)
 
 <table class="log">
 <thead>
-<tr><th>QSO nr.</th><th>Callsign</th></tr>
+<tr><th>QSO no</th><th>Callsign</th></tr>
 </thead>
 <tbody>
 <tr><td>1</td><td>56FL001</td></tr>
+
 <tr><td>2</td><td>14JPB069</td></tr>
 <tr><td>3</td><td>1CRD01</td></tr>
 <tr><td>4</td><td>30RC164</td></tr>

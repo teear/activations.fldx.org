@@ -7,6 +7,6 @@ display_order: 3
 
 # Videos
 
-{% video '56FL/ID 06/12/2011 1244 UTC Op. 56FL113 Panu' %}https://www.youtube.com/embed/zRNIDLr7Dhk{% endvideo %}
+{% video '56FL/ID op. 56FL113 Panu, 06/12/2011 1244 UTC' %}https://www.youtube.com/embed/zRNIDLr7Dhk{% endvideo %}
 
-{% video '56FL/ID 06/12/2014 1547 UTC Op. 56FL001 Timo (Video by 26CT1059 Tom)' %}https://www.youtube.com/embed/qbdG4hTPBDs{% endvideo %}
+{% video '56FL/ID op. 56FL001 Timo, 06/12/2014 1547 UTC (video by 26CT1059 Tom)' %}https://www.youtube.com/embed/qbdG4hTPBDs{% endvideo %}

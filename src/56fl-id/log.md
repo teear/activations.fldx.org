@@ -7,13 +7,13 @@ display_order: 4
 
 # 56FL/ID Log {% date '2011' %}&ndash;{% date '2014' %}
 
-Operators: 56FL001 (QSO nr. 1&ndash;13, 20&ndash;28, 29&ndash;45, 46&ndash;74) 56FL113 Panu (QSO nr. 14&ndash;19)
+Operators: 56FL001 Timo (QSO no 1&ndash;13, 20&ndash;28, 29&ndash;45, and 46&ndash;74), 56FL113 Panu (QSO no 14&ndash;19)
 
-QSOs in {% date '2011' %}: 1&ndash;28, in {% date '2013' %}: 29&ndash;45, in {% date '2014' %}: 46&ndash;74
+QSOs by year: 1&ndash;28 ({% date '2011' %}), 29&ndash;45 ({% date '2013' %}), and 46&ndash;74 ({% date '2014' %})
 
 <table class="log">
 <thead>
-<tr><th>QSO nr.</th><th>Callsign</th></tr>
+<tr><th>QSO no</th><th>Callsign</th></tr>
 </thead>
 <tbody>
 <tr><td>1</td><td>233SA103</td></tr>
