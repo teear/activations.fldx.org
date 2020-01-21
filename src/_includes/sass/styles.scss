@@ -23,6 +23,9 @@ body {
   font-family: "museo-slab", serif;
   font-size: 100%;
   line-height: 1.5;
+  @media all and (min-width: 1000px) {
+    line-height: 1.6;
+  }
 }
 
 /* Responsive */
@@ -317,7 +320,7 @@ h1 {
 
 @media all and (min-width: 43.75em) {
   h1 {
-    font-size: 2.7em;
+    font-size: 2.5em;
     line-height: 1.125;
   }
 
