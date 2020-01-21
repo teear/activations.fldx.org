@@ -14,9 +14,9 @@ Operators:
 - 56FL114 Pete (QSO no 182&ndash;184)
 - 56FL001 Timo (QSO no 185&ndash;196 and 197&ndash;214)
 
-QSOs on {% date '15/11/2011' %} (1&ndash;8) and {% date '30/06/2016' %} (197&ndash;214) from Raippaluoto (Replot) island, others from Björkö island
+QSOs on {% date '15/11/2011' %} (1&ndash;8) and {% date '30/06/2016' %} (197&ndash;214) are from Raippaluoto (Replot) island, others from Björkö island.
 
-QSOs 185&ndash;196 made in the Island Festival of {% date '2014' %} (images: [day 1](https://l.fldx.org/islfest-1), [day 2](https://l.fldx.org/islfest2)
+QSOs 185&ndash;196 were made in the Island Festival of {% date '2014' %} (images: [day 1](https://l.fldx.org/islfest-1), [day 2](https://l.fldx.org/islfest2)).
 
 <table class="log">
 <thead>
