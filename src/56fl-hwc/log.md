@@ -9,7 +9,10 @@ display_order: 3
 
 Current log updated on {% date '30/06/2011' %}
 
-Operators: 56FL113 Panu (QSO no 1–325), 56FL001 Timo (QSO no 326–)
+Operators:
+
+- 56FL113 Panu (QSO no 1–325)
+- 56FL001 Timo (QSO no 326–)
 
 <table class="log">
 <thead>
