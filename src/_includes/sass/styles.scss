@@ -397,7 +397,6 @@ figcaption {
   display: table-caption;
   caption-side: bottom;
   font-size: 0.9em;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 figure a {
@@ -411,12 +410,15 @@ figure.video {
   width: 100%;
 }
 
+figure.video figcaption {
+  padding-top: 0.5em;
+}
+
 figure.map figcaption,
 figure.photo figcaption,
 figure.video figcaption,
 figure.audio figcaption {
   margin-left: 35px;
-  padding-top: 0.5em;
 }
 
 figure.map figcaption::before,
