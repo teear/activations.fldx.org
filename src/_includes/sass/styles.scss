@@ -386,10 +386,11 @@ main header p {
   <iframe src='http://www.youtube.com/embed/zRNIDLr7Dhk' frameborder='0' allowfullscreen></iframe>
 </div>
 */
-/* Icons */
+
+/* Figure elements */
 figure {
   display: table;
-  min-width: 95%; /* If the content does not load the figcaption will be solid */
+  min-width: 400px; /* If the content does not load the figcaption will have this width. Must be less than the most narrow figure content so that the figcaption width is the same as the width of the content when the content loads normally. */
 }
 
 figcaption {
