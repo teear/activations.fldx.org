@@ -9,12 +9,12 @@ display_order: 1
 
 56FL/EU101 was last active from Björkö island in the island festival of {% date '2014' %} on Saturday ({% date '7 June' %}) and Sunday ({% date '8 June' %}).
 
-Information about the EU-101 island group (located near the city of Vaasa in Finland) on the RSGB IOTA website: [EU-101 Island Group](https://www.iota-world.org/islands-on-the-air/iota-groups-islands/group/429.html)
-
-The EU-101 island group consists of several islands, [Raippaluoto](https://en.wikipedia.org/wiki/Replot) and [Björkö](https://en.wikipedia.org/wiki/Bj%C3%B6rk%C3%B6_%28Korsholm%29) being the largest ones.
+You can find information about the EU-101 island group (located near the city of [Vaasa](https://www.vaasa.fi/en/) in Finland) on the [RSGB IOTA website](https://www.iota-world.org/islands-on-the-air/iota-groups-islands/group/429.html).
 
 EU-101 can also be found in Islands Base Online: [http://islands.upway.pl/find_for.php?do=search&amp;io=EU-101](http://islands.upway.pl/find_for.php?do=search&amp;io=EU-101)
 (**Note** however that there is also lots of **non-IOTA** islands listed as part of EU-101.)
+
+The EU-101 island group consists of several islands, [Raippaluoto](https://en.wikipedia.org/wiki/Replot) and [Björkö](https://en.wikipedia.org/wiki/Bj%C3%B6rk%C3%B6_%28Korsholm%29) being the largest ones.
 
 ## Raippaluoto Island (Replot) on Map
 
