@@ -20,7 +20,7 @@ SES Celebrating Finland's win in the Ice Hockey World Championship in {% date '2
 After 16 years of waiting Finland won the ice hockey world championship for the second time.
 In the final match in Slovakia, Finland beat Sweden with goals 6–1. The first world championship for Finland was in {% date '1995' %} also against Sweden.
 
-[https://en.wikipedia.org/wiki/2011_IIHF_World_Championship](https://en.wikipedia.org/wiki/2011_IIHF_World_Championship)
+More info on Wikipedia: [2011 IIHF World Championship](https://en.wikipedia.org/wiki/2011_IIHF_World_Championship)
 
 ## The QSL Card
 
