@@ -258,7 +258,6 @@ main {
 
 .fonts-inactive h1 {
   font-family: Helvetica, Arial, sans-serif;
-  letter-spacing: 1px;
 }
 @media all and (min-width: 43.75em) {
   .fonts-inactive h1 {
@@ -268,7 +267,6 @@ main {
 
 .fonts-inactive h2 {
   font-family: Helvetica, Arial, sans-serif;
-  letter-spacing: 1px;
 }
 @media all and (min-width: 43.75em) {
   .fonts-inactive h2 {
@@ -280,7 +278,7 @@ h1,
 h2 {
   font-family: "futura-pt", sans-serif;
   line-height: 1.2;
-  letter-spacing: 2px;
+  letter-spacing: 0.8px;
   text-transform: uppercase;
   font-weight: 700;
   font-style: normal;
