@@ -23,7 +23,7 @@
   "author": "56FL001, Timo",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.9.0-beta.1",
+    "@11ty/eleventy": "^0.10.0",
     "autoprefixer": "^9.6.1",
     "clean-css": "^4.2.1",
     "eleventy-plugin-pwa": "^1.0.8",
