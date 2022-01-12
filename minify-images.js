@@ -9,7 +9,7 @@ const imageminSvgo = require("imagemin-svgo");
       imageminJpegtran(),
 			imageminPngquant(),
       imageminSvgo({
-        plugins: [{ removeViewBox: false }]
+	      plugins: [{ name: 'removeViewBox', active: false }]
       })
     ],
     replaceOutputDir: output => {
