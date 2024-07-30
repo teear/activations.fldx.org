@@ -15,8 +15,8 @@ Your browser does not support the video element.
 <figcaption>56FL/HWC op. 56FL113 Panu active on {% date '21/05/2011' %}</figcaption>
 </figure>
 
-{% video 'Video on Youtube by 13AT218 (QSO on 21/05/2011)' %}https://www.youtube.com/embed/AUEzFP_ih2g{% endvideo %}
+{% video 'Video on Youtube by 13AT218 (QSO on 21/05/2011)' %}https://www.youtube-nocookie.com/embed/AUEzFP_ih2g{% endvideo %}
 
-{% video '19PX001 Johan and 56FL/HWC Timo on 10/06/2011' %}https://www.youtube.com/embed/KrotkAqgRF8{% endvideo %}
+{% video '19PX001 Johan and 56FL/HWC Timo on 10/06/2011' %}https://www.youtube-nocookie.com/embed/KrotkAqgRF8{% endvideo %}
 
 {% audio '56FL/HWC op. 56FL113 Panu on air' %}/56fl-hwc/media/56fl_hwc_21_05_2011.mp3{% endaudio %}
