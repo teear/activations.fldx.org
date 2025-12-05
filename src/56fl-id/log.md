@@ -102,6 +102,6 @@ QSOs by year:
 
 We are currently using yaLOG as the logbook program for our activities: <a href="https://yalog.net/">https://yalog.net/</a>
 
-If you are in the log and wish to get the QSL, you can send your QSL to: Timo, P.O.Box 7, 65301 Vaasa, Finland
+If you are in the log and wish to get the QSL, you can send your QSL to: Timo, Pajak 1, 65300 Vaasa, Finland
 
 Received QSLs: <a href="/files/qsl-status.txt">qsl-status.txt</a>
